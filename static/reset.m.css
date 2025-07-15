@@ -1,0 +1,33 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {margin: 0;padding: 0}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section ,iframe {display: block}
+audio, canvas, video {display: inline-block;*display: inline;*zoom: 1;}
+html {-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+body,button, input, select, textarea {font-size: 0.28rem;line-height:1.5; font-family: "Microsoft Yahei","Arial",sans-serif;color:#333333}
+button, input, select, textarea {font-size: 0.28rem;line-height:0.48rem; outline: none; background: none;border: none; }
+button{border: 0}
+:-moz-ui-invalid:not(output) {box-shadow: none;}
+table {border-collapse: collapse;border-spacing: 0}
+th {text-align: inherit}
+fieldset, img {border: 0}
+img{vertical-align: middle}
+del {text-decoration: line-through}
+address, caption, cite, code, dfn, em, th, var {font-style: normal;}
+ol, ul {list-style: none}
+caption, th {text-align: left}
+q:before, q:after {content: ''}
+sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline}
+sup {top: -.5em}
+sub {bottom: -.25em}
+a{text-decoration: none;color:inherit;}
+a:hover {text-decoration: none;}
+.clearfix:after,.clf:after{visibility: hidden; display: block;font-size: 0;content: '.'; clear: both;height: 0}
+.clearfix,.clf{zoom: 1;}
+.clear { font-size: 0;line-height: 0;height: 0;clear: both; visibility: hidden; overflow: hidden}
+.fn-text-overflow {overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;font-size: 0.28rem;line-height: 1.5;}
+input,textarea,button{outline: none;border: 0;}
+textarea{resize: none;}
+em, b, i, code, strong {font-style: normal;}
+/*2020.12.30新加底部导航-只加电话与商务通代码*/
+.wsc-botfix a{width:40%;display:inline-block;background-color:#aa0a1d;height:0.8rem;color:#fff;border-radius:5px;line-height:0.8rem;text-align:center;}
+.wsc-botfix{padding-left:9.5%;line-height:1.12rem;background-color:#e2e1e8 !important;}
